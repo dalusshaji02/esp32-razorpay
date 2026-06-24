@@ -1,0 +1,5 @@
+DirectoryIndex index.php check_status.php
+Options +FollowSymLinks
+RewriteEngine On
+RewriteRule ^check_status\.php$ check_status.php [L]
+RewriteRule ^razorpay_webhook\.php$ razorpay_webhook.php [L]
